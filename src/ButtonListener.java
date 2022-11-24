@@ -8,6 +8,7 @@ import java.awt.event.*;
 public class ButtonListener implements ActionListener {
 	
 	private ButtonID id;
+	private GameWindow frame;
 	
 	/**
 	 * Event handler for buttons. Determines what to do based on its ID.
@@ -27,15 +28,16 @@ public class ButtonListener implements ActionListener {
 	 * @param id Sets the ID of the button listener
 	 * @see ButtonID
 	 */
-	public ButtonListener(ButtonID id) {
+	public ButtonListener(ButtonID id, GameWindow frame) {
 		this.id = id;
+		this.frame = frame;
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		switch (id) {
 			case SUBMIT:
-				System.out.println("Button pressed: Submit");
+				
 				break;
 			case NEW_GAME:
 				System.out.println("Button pressed: New Game");

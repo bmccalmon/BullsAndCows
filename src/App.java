@@ -1,3 +1,6 @@
+
+import javax.swing.JLabel;
+
 /*
  * Author: Benjamin McCalmon
  * Version: alpha-1.0
