@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Author: Benjamin McCalmon
  * Version: alpha-1.0
  * Date last modified: 12/09/2022
- * Bulls and Cows McCalmon implementation all rights reserved
+ * Bulls and Cows McCalmon implementation MIT LICENSE
  */
 
 // TODO implement ListInterface using an array
