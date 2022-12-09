@@ -17,6 +17,14 @@ public class GameWindow extends JFrame {
 		setupWindow();
 	}
 	
+	public JLabel getLabel1() {
+		return label1;
+	}
+	
+	public JButton getButton() {
+		return button;
+	}
+	
 	private void setupComponents() {
 		button = new JButton("Start");
 		button.addActionListener(new ButtonListener(ButtonID.SUBMIT,this));
@@ -33,13 +41,5 @@ public class GameWindow extends JFrame {
 		add(button);
 		add(label1);
 		setVisible(true);
-	}
-	
-	public JLabel getLabel1() {
-		return label1;
-	}
-	
-	public JButton getButton() {
-		return button;
 	}
 }
